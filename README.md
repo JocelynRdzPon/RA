@@ -278,3 +278,41 @@ Deleted branch v0.2 (was 1d97efd).
 Se muestra los commits con sus ramas y cambios efectuados
 
  >![Imagen](./CAPTURAS/C31.png) <br>
+
+ # EXAMEN SEGUNDA PARTE
+
+## Cuenta de GitHub 
+
+
+1. Poner una foto en tu perfil de GitHub. 
+2. Poner el doble factor de autentificación en tu cuenta de GitHub. 
+   ![Imagen](./CAPTURAS/32.png) <br>
+3. Añadir (si no lo has hecho aun) la clave pública (ssh) que se corresponde a tu equipo. 
+
+
+## Uso social de GitHub 
+
+1. Preguntar los nombres de usuario de GitHub de tus compañeros de clase, búscalos, y síguelos. 
+2. Seguir los repositorios RA del resto de tus compañeros. 
+3. Añadir una estrella a los repositorios RA del resto de tus compañeros. 
+ ![Imagen](./CAPTURAS/33.png) <br>
+
+## Crear una tabla 
+
+Crear una tabla de este estilo en el fichero README.md con la información de 3 de tus compañeros de clase: 
+
+|Nombre | GITHUB|
+|-------|-------|
+|AngelSebastainGarciaSosa| Ange,LSebastianGarciaSosa|
+|Aisslin |diaz696|
+|Geronimo Martinez|GeroimoMtz|
+
+
+
+ 
+
+## Colaboradores 
+
+Ponerme como colaborador del repositorio RA *mi usuario: jmav94 
+
+ ![Imagen](./CAPTURAS/34.png) <br>
