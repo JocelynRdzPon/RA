@@ -26,6 +26,9 @@ $ git remote add origin https://github.com/JocelynRdzPon/RA.git
 ```
 $ touch README.md
 ```
+<br>
+
+-----------------------
 ![Imagen](./CAPTURAS/C2.png)
 
 
