@@ -119,3 +119,46 @@ $ git tag
 ```
 ![Imagen](./CAPTURAS/C12.png)<br>
 
+------------------
+
+## Subir el tag v0.1 
+
+Para subir el tag creado al repositorio remoto se ejecutaran el comando:
+```
+$ git push origin --tags
+```
+![Imagen](./CAPTURAS/C14.png) <br>
+
+Se ejecutara y al revisar en el repositorio remoto en el apartado de *Tags*
+![Imagen](./CAPTURAS/C15.png) <br>
+
+Se visualizara de la siguiente manera
+![Imagen](./CAPTURAS/C13.png) <br>
+
+-----------------------
+## Crear una rama v0.2 
+
+1. Se creo la rama v0.2. 
+```
+$ git branch v0.2
+```
+![Imagen](./CAPTURAS/C16.png) <br>
+2. Posiciona tu working directory en esta rama.
+```
+git checkout v0.2
+```
+![Imagen](./CAPTURAS/C17.png) <br>
+
+## Añadir Archivo 2.txt
+
+1. Se añadio un archivo2.txt en la rama v0.2 con el comando:
+```
+$ touch archivo2.txt
+```
+ 
+![Imagen](./CAPTURAS/C18.png) <br>
+
+---------------
+
+## Crear rama remota v0.2 
+
