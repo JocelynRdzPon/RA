@@ -286,7 +286,7 @@ Se muestra los commits con sus ramas y cambios efectuados
 
 1. Poner una foto en tu perfil de GitHub. 
 2. Poner el doble factor de autentificación en tu cuenta de GitHub. 
-   ![Imagen](./CAPTURAS/32.png) <br>
+   ![Imagen](./CAPTURAS/C32.png) <br>
 3. Añadir (si no lo has hecho aun) la clave pública (ssh) que se corresponde a tu equipo. 
 
 
@@ -315,4 +315,4 @@ Crear una tabla de este estilo en el fichero README.md con la información de 3 
 
 Ponerme como colaborador del repositorio RA *mi usuario: jmav94 
 
- ![Imagen](./CAPTURAS/34.png) <br>
+ ![Imagen](./CAPTURAS/C34.png) <br>
