@@ -92,3 +92,29 @@ Untracked files:
 6. Al guardar el archivo *.gitignore* (CTRL+S), se vuelve a consultar el estado del repositorio y se visualiza que el archivo *privado.txt* ya no se encuentra en Staged
 
 ![Imagen](./CAPTURAS/C10.png)<br>
+
+-----------------------
+## Añadir archivo1.txt
+
+Se creo el archivo1.txt y se realizo el add y commit
+```
+$ touch archivo1.txt
+
+$ git add .
+
+$ git commit -m "Se agrego archivo1.txt"
+```
+
+![Imagen](./CAPTURAS/C11.png)<br>
+
+------------------
+## Crear el tag v0.1 
+1. Se crea el tag con el nombre ***v0.1***. 
+```
+$ git tag -a v0.1 -m "Tag v0.1"
+```
+1. Se comprueba que se haya creado correctamente con el comando:
+```
+$ git tag
+```
+![Imagen](./CAPTURAS/C12.png)<br>
