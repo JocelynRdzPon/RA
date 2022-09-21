@@ -113,7 +113,7 @@ $ git commit -m "Se agrego archivo1.txt"
 ```
 $ git tag -a v0.1 -m "Tag v0.1"
 ```
-1. Se comprueba que se haya creado correctamente con el comando:
+2. Se comprueba que se haya creado correctamente con el comando:
 ```
 $ git tag
 ```
