@@ -171,4 +171,110 @@ Mediante el comando:
 ```
 $ git push origin v0.2
 ```
-Se suben los cambios y se crea la rama remota
+![Imagen](./CAPTURAS/C19.png) <br>
+
+Se suben los cambios y se crea la rama remota en Github
+
+![Imagen](./CAPTURAS/C20.png) <br>
+
+-------------------
+## Merge directo 
+
+1. Posicionarse en la rama master. 
+```
+$ git checkout master
+```
+2. Hacer un merge de la rama v0.2 en la rama master. 
+```
+$ git merge v0.2
+```
+![Imagen](./CAPTURAS/C21.png) <br>
+
+----------------
+
+## Merge con conflicto 
+1. Posicionarnos en la rama *MASTER*
+```
+$ git checkout master
+```
+
+2. En el ***archivo1.txt*** se escribio **Hola** y se realizo el commit
+```
+$ vi archivo1.txt
+
+$ cat archivo1.txt
+Hola
+
+$ git add .
+
+$ git commit -m "Archivo 1 MASTER"
+```
+![Imagen](./CAPTURAS/C22.png) <br>
+![Imagen](./CAPTURAS/C23.png) <br>
+
+3. Se procede a posicionarse en la rama v0.2
+```
+$ git checkout v0.2
+```
+4. En el ***archivo1.txt*** en la rama *v0.2* se escribio **Adios** y se realizo el commit
+```
+$ vi archivo1.txt
+
+$ cat archivo1.txt
+Adios
+
+$ git add .
+
+$ git commit -m "Archivo 1 V0.2"
+```
+![Imagen](./CAPTURAS/C24.png) <br>
+
+5. Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2 
+ ```
+ $ git checkout master
+
+ $ git merge v0.2
+ ```
+
+ ![Imagen](./CAPTURAS/C25.png) <br>
+ 
+ ------------------
+## Listado de ramas 
+
+1. Listar las ramas con merge y las ramas sin merge. 
+ ![Imagen](./CAPTURAS/C26.png) <br>
+
+----------------------
+ ## Arreglar conflicto 
+
+1. Se va arreglar el conflicto de **MERGING**, como se muestra en la imagen al realizar el merge se notifica que hay un *conflicto* en el *archivo1.txt* el cual se debe de resolver
+   
+![Imagen](./CAPTURAS/C27.png) <br>
+
+2. Para resolverlo se hizo un add y commit al archivo, una vez hechos los cambios.
+>![Imagen](./CAPTURAS/C28.png) <br>
+
+## Borrar rama 
+
+1. Se creo un tag para almacenar lo creado en la rama *v0.2*. Se muestran los tags existentes en el repositorio.
+```
+$ git tag -a v0.2 -m "Tag v0.2"
+
+$ git tag
+v0.1
+v0.2
+```
+   >![Imagen](./CAPTURAS/C29.png) <br>
+
+1. Se elimino la rama v0.2 con el comando 
+```
+git branch -d v0.2
+Deleted branch v0.2 (was 1d97efd).
+```
+ >![Imagen](./CAPTURAS/C30.png) <br>
+
+## Listado de cambios 
+
+Se muestra los commits con sus ramas y cambios efectuados
+
+ >![Imagen](./CAPTURAS/C31.png) <br>
