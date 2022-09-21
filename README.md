@@ -162,3 +162,10 @@ $ touch archivo2.txt
 
 ## Crear rama remota v0.2 
 
+Subir los cambios al repositorio remoto.
+
+Mediante el comando:
+```
+$ git push origin v0.2
+```
+Se suben los cambios y se crea la rama remota
